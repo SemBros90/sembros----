@@ -19,6 +19,7 @@ export default function Header({ query, onQuery, results, onNavigate, mobileOpen
             <strong>SemBros Electric Co.</strong>
             <small>Precision Manufacturing</small>
           </span>
+          <span className="logo-status-dot" aria-hidden="true" title="Live status" />
         </button>
 
         <div className="header-right">

@@ -107,6 +107,18 @@ button {
   text-transform: uppercase;
 }
 
+.logo-status-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #ef4444;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 6px;
+  margin-left: 2px;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.22);
+}
+
 .header-right {
   display: flex;
   align-items: center;
