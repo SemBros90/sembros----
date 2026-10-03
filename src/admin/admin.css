@@ -1,0 +1,158 @@
+.supabase-manager {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.supabase-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+}
+
+.supabase-header p {
+  margin: 0 0 8px;
+  color: #4b5563;
+}
+
+.supabase-safety-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #065f46;
+  background: #d1fae5;
+  border-radius: 999px;
+}
+
+.supabase-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.supabase-tab {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #1f2937;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.supabase-tab:hover {
+  background: #e5e7eb;
+}
+
+.supabase-tab.active {
+  color: #ffffff;
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.supabase-artifact-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.supabase-preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.supabase-preview-header h2 {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+}
+
+.supabase-preview-header p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.supabase-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.supabase-copy-btn,
+.supabase-download-btn,
+.supabase-copy-all,
+.supabase-download-all {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.supabase-copy-btn {
+  background: #eff6ff;
+  color: #1e40af;
+}
+
+.supabase-copy-btn:hover {
+  background: #dbeafe;
+}
+
+.supabase-download-btn,
+.supabase-download-all {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.supabase-download-btn:hover,
+.supabase-download-all:hover {
+  background: #a7f3d0;
+}
+
+.supabase-copy-all {
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+.supabase-copy-all:hover {
+  background: #e5e7eb;
+}
+
+.supabase-code-preview {
+  padding: 16px 20px;
+  background: #111827;
+  overflow-x: auto;
+}
+
+.supabase-code-preview pre {
+  margin: 0;
+}
+
+.supabase-code-preview code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+  white-space: pre-wrap;
+}
+
+.supabase-footer {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.supabase-empty {
+  color: #6b7280;
+  font-style: italic;
+}

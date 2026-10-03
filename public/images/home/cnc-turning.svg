@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1f3c"/>
+      <stop offset="1" stop-color="#1e3d6e"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="70" y="90" width="1060" height="620" rx="28" fill="#10264a" stroke="#2a426b" stroke-width="4"/>
+  <rect x="100" y="450" width="1000" height="200" rx="18" fill="#0d1f3c" stroke="#2a426b" stroke-width="3"/>
+  <rect x="140" y="280" width="260" height="200" rx="18" fill="#1e3d6e"/>
+  <circle cx="270" cy="390" r="120" fill="url(#metal)" stroke="#64748b" stroke-width="8"/>
+  <circle cx="270" cy="390" r="56" fill="#cbd5e1" stroke="#64748b" stroke-width="6"/>
+  <circle cx="270" cy="390" r="18" fill="#f59e0b"/>
+  <path d="M400 330 L650 330 L650 450 L400 450 Z" fill="#cbd5e1"/>
+  <rect x="630" y="350" width="160" height="30" rx="8" fill="#475569"/>
+  <path d="M790 365 Q950 300 1050 365" stroke="#f59e0b" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <text x="600" y="740" text-anchor="middle" fill="#ffd27d" font-size="48" font-family="system-ui, sans-serif" font-weight="700">CNC TURNING</text>
+</svg>

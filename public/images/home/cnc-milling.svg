@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1f3c"/>
+      <stop offset="1" stop-color="#1e3d6e"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="70" y="90" width="1060" height="620" rx="28" fill="#10264a" stroke="#2a426b" stroke-width="4"/>
+  <rect x="120" y="130" width="300" height="520" rx="20" fill="#0d1f3c" stroke="#2a426b" stroke-width="3"/>
+  <rect x="220" y="170" width="130" height="90" rx="12" fill="url(#metal)"/>
+  <rect x="250" y="250" width="40" height="180" rx="8" fill="#64748b"/>
+  <path d="M255 430 L215 520 H295 L255 430 Z" fill="#f59e0b"/>
+  <rect x="470" y="280" width="540" height="260" rx="18" fill="#1e3d6e"/>
+  <rect x="520" y="330" width="440" height="160" rx="12" fill="url(#metal)"/>
+  <path d="M560 370 H920" stroke="#64748b" stroke-width="6"/>
+  <path d="M560 410 H920" stroke="#64748b" stroke-width="6"/>
+  <path d="M600 330 V490 M700 330 V490 M800 330 V490" stroke="#475569" stroke-width="6"/>
+  <path d="M470 420 L210 420" stroke="#ffd27d" stroke-width="10" stroke-linecap="round"/>
+  <text x="600" y="740" text-anchor="middle" fill="#ffd27d" font-size="48" font-family="system-ui, sans-serif" font-weight="700">CNC MILLING</text>
+</svg>

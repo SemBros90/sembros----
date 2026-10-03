@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1f3c"/>
+      <stop offset="1" stop-color="#1e3d6e"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3f8"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffd27d"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="70" y="90" width="1060" height="620" rx="28" fill="#10264a" stroke="#2a426b" stroke-width="4"/>
+  <rect x="120" y="150" width="320" height="280" rx="18" fill="#0d1f3c" stroke="#2a426b" stroke-width="3"/>
+  <rect x="140" y="170" width="280" height="240" rx="12" fill="url(#panel)"/>
+  <rect x="160" y="190" width="100" height="60" rx="8" fill="#64748b"/>
+  <rect x="180" y="220" width="60" height="12" rx="6" fill="#f59e0b"/>
+  <circle cx="300" cy="330" r="36" fill="#475569"/>
+  <circle cx="300" cy="330" r="18" fill="url(#glow)"/>
+  <rect x="490" y="180" width="560" height="80" rx="12" fill="#1e3d6e"/>
+  <rect x="520" y="200" width="110" height="40" rx="8" fill="#f59e0b"/>
+  <rect x="650" y="200" width="110" height="40" rx="8" fill="#64748b"/>
+  <rect x="780" y="200" width="110" height="40" rx="8" fill="#f59e0b"/>
+  <rect x="910" y="200" width="110" height="40" rx="8" fill="#64748b"/>
+  <path d="M500 340 H1050" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M530 340 L570 300 L610 340 Z" fill="#ffd27d"/>
+  <text x="600" y="740" text-anchor="middle" fill="#ffd27d" font-size="52" font-family="system-ui, sans-serif" font-weight="700">PRECISION MANUFACTURING</text>
+</svg>
